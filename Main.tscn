@@ -12,6 +12,6 @@ stream = ExtResource( 2 )
 autoplay = true
 
 [node name="FoodGen" type="Node2D" parent="."]
-position = Vector2( 518, 105 )
+position = Vector2( 7.24951, 17.2499 )
 script = ExtResource( 3 )
 

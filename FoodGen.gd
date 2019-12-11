@@ -23,9 +23,16 @@ const all_food = [
 var time = 0
 var next = 0
 
+func _ready():
+	position.x = OS.get_window_size().x / 2.0
+
 func _physics_process(delta):
 	time = time + delta
 	if time >= next:
 		var i = all_food[randi() % all_food.size()].instance()
+		var pos_offset_x = randi() % 500
+		if randi() % 2 < 1:
+			pos_offset_x = pos_offset_x * -1
+		i.position.x = pos_offset_x
 		add_child(i)
 		next = time + INTERVAL
