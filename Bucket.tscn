@@ -6,7 +6,7 @@
 scale = Vector2( 8, 8 )
 texture = ExtResource( 1 )
 region_enabled = true
-region_rect = Rect2( 3, 4, 25, 25 )
+region_rect = Rect2( 37, 20, 22, 26 )
 
 [node name="RigidBody2D" type="RigidBody2D" parent="."]
 
