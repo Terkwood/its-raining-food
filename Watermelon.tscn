@@ -5,11 +5,12 @@
 [node name="Watermelon" type="RigidBody2D"]
 
 [node name="Sprite" type="Sprite" parent="."]
-scale = Vector2( 3, 3 )
+scale = Vector2( 12, 12 )
 texture = ExtResource( 1 )
 region_enabled = true
 region_rect = Rect2( 0, 96, 16, 16 )
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+scale = Vector2( 4, 4 )
 polygon = PoolVector2Array( 24.8231, -18.6864, 24.1646, 1.72513, 1.90947, 22.005, -8.62551, 22.005, -23.3745, 10.4165, -23.3745, -3.27899 )
 

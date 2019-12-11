@@ -9,7 +9,7 @@ height = 2.34075
 [node name="Avocado" type="RigidBody2D"]
 
 [node name="Sprite" type="Sprite" parent="."]
-scale = Vector2( 3, 3 )
+scale = Vector2( 6, 6 )
 texture = ExtResource( 1 )
 region_enabled = true
 region_rect = Rect2( 0, 112, 16, 16 )
@@ -17,6 +17,6 @@ region_rect = Rect2( 0, 112, 16, 16 )
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2( -0.263374, 0.526749 )
 rotation = 0.853466
-scale = Vector2( 3, 3 )
+scale = Vector2( 6, 6 )
 shape = SubResource( 1 )
 

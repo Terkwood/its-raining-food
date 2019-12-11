@@ -8,12 +8,13 @@ radius = 18.0903
 [node name="Apple" type="RigidBody2D"]
 
 [node name="Sprite" type="Sprite" parent="."]
-scale = Vector2( 3, 3 )
+scale = Vector2( 6, 6 )
 texture = ExtResource( 1 )
 region_enabled = true
 region_rect = Rect2( 64, 16, 16, 16 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2( 1.58025, 4.60905 )
+scale = Vector2( 2, 2 )
 shape = SubResource( 1 )
 

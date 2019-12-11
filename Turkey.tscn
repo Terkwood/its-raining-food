@@ -6,10 +6,10 @@
 radius = 16.1925
 
 [node name="Turkey" type="RigidBody2D"]
-position = Vector2( 191.556, 184 )
+position = Vector2( 1.556, 0.666656 )
 
 [node name="Sprite" type="Sprite" parent="."]
-scale = Vector2( 2, 2 )
+scale = Vector2( 4, 4 )
 texture = ExtResource( 1 )
 region_enabled = true
 region_rect = Rect2( 0, 256, 128, 128 )
@@ -17,6 +17,6 @@ region_filter_clip = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2( 0, 6 )
-scale = Vector2( 2, 2 )
+scale = Vector2( 4, 4 )
 shape = SubResource( 1 )
 

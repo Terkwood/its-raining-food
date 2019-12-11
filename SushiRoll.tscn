@@ -8,10 +8,11 @@ radius = 19.4769
 [node name="SushiRoll" type="RigidBody2D"]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+scale = Vector2( 3, 3 )
 shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="."]
-scale = Vector2( 3, 3 )
+scale = Vector2( 9, 9 )
 texture = ExtResource( 1 )
 region_enabled = true
 region_rect = Rect2( 112, 0, 16, 16 )

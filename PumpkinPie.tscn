@@ -5,12 +5,12 @@
 [node name="PumpkinPie" type="RigidBody2D"]
 
 [node name="Sprite" type="Sprite" parent="."]
-scale = Vector2( 3, 3 )
+scale = Vector2( 6, 6 )
 texture = ExtResource( 1 )
 region_enabled = true
 region_rect = Rect2( 64, 64, 16, 16 )
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
-scale = Vector2( 3, 3 )
+scale = Vector2( 6, 6 )
 polygon = PoolVector2Array( -7.44034, -0.0658569, 2.96295, -4.67491, 7.7037, 4.27982, -7.04527, 5.33332 )
 
