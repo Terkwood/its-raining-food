@@ -7,7 +7,7 @@ var current = {}
 func _input(event):
 	if event is InputEventScreenTouch and event.is_pressed():
 		var i = Bucket.instance()
-		i.position = event.position
+		i.position = event.position + Vector2(0,-100)
 		current[event.index] = i
 		add_child(i)
 	if event is InputEventScreenTouch and not event.is_pressed() and current.has(event.index):
